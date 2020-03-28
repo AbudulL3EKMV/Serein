@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e4e2e2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*mise en forme de la zone 1 & de la zone 2*/
+.zone1{
+    height: 820px;
+    width: 20%;
+    background-color: #fff;
+}
+
+.zone_serein{
+    display: flex;
+    margin: 5% 5% 16% 20%;
+}
+
+
+
+.cercle{
+    height: 50px;
+    width: 50px;
+    background-color: #7081f0;
+    border-radius: 50%;
+    margin-right: 3%;
+    padding: 0px 10px;
+}
+
+.serein_a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -7px;
+}
+
+.color_s{
+    font-size: 30px;
+    color: white;
+}
+
+.color_e{
+    color: #2e3a83;
+    font-size: 40px;
+}
+.se{
+    
+    padding: 6% 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    color: #7081f0;
+}
+
+li{
+    list-style: none; 
+    padding-left: 13%;
+    margin-bottom: 12%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li:hover{
+    border-left: 3px solid #8191eb;
+}
+
+.zone2{
+    height: 820px;
+    width: 79.8%;
+}
+
+#general_zone{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/*mise en forme de menu_bar*/
+.menu_bar{
+    height: 70px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 3%;
+    padding: 2%;
+    position: relative;
+}
+
+.cercle_menu_bar{
+    height: 43px;
+    width: 43px;
+    background-color: rgb(161, 161, 161);
+    border-radius: 50%;
+    position: absolute;
+    right: 9%;
+    top: 18%;
+}
+
+/*mise en forme des 3 traits du menu_bar*/
+.trait{
+    height: 4px;
+    width: 30px;
+    background-color: rgb(138, 133, 133);
+    margin-bottom: 0.5%;
+}
+
+
+
+
+/*zone des 4 carrés*/
+.Square{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*mise en forme des 4 carrés*/
+.squar{
+    height: 100px;
+    width: 225px;
+    border-radius: 8px;
+    margin-bottom: 3%;
+    padding: 2%;
+}
+
+/*colorisation des 4 carrés*/
+.s1{
+    background-color: #9766f9;
+}
+
+.s2{
+    background-color: #ff839f;
+}
+
+.s3{
+    background-color: #ff9856;
+}
+
+.s4{
+    background-color: #2a77fe;
+}
+
+/*mise en ecriture de total & chiffre*/
+.total{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.chiffre{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/*positionnement de la zone rectangle*/
+.rectangle{
+    display: flex;
+    justify-content: space-around;
+}
+
+/*mise en forme des 3 rectangles*/
+.rect{
+    height: 450px;
+    width: 320px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 2%; 
+}
+
+/* positionnement des small_title*/
+.small_title{
+    color: rgba(0, 0, 0, 0.664);
+    font-size: 16px;
+    margin-bottom: 10%;
+}
+
+/*mise en place de la zone chiffre_text*/
+#zone_chiffre_text{
+    display: flex;
+    margin-bottom: 55%;
+}
+
+.chif_text{
+    margin-right: 20%;
+}
+
+.chiffre2{
+    font-size: 30px;
+}
+
+.online{
+    color: rgb(136, 136, 136);
+}
+
+/*positionnement online_store_text*/
+.online_store{
+    display: flex;
+}
+
+.online_store_text{
+    margin-right: 20%;
+}
+
+/*Mise en forme des 5 mini_cercles du small_title Activity*/
+
+.zone_mini_cercle1{
+    display: flex;
+    margin-bottom: 8%;
+}
+
+.mini_cercle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgb(151, 151, 151);
+    margin-right: 7%;
+}
+
+/*mise en police et en couleur de nom, taf & time dans name_taf_time*/
+.nom{
+    margin-bottom: 5%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.taf{
+    color: #696969;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.time{
+    color: #b8b8b8;
+}
+
+/*Mise en forme du cercle_traffic*/
+.cercle_traffic{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: 11px solid #f1749c;
+    margin: 0% auto;
+   padding: 21% 0%;
+}
+
+.nbre_traffic{
+    text-align: center;
+    font-size: 25px;
+    color: rgb(121, 121, 121);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*text_traffic*/
+.text_traffic{
+    text-align: center;
+    margin-top: 7%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.traf{
+    text-align: center;
+    color: rgb(138, 138, 138);
+    font-size: 15px;
+    margin-bottom: 15%;
+}
+
+#FB_GOOGLE{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/*mise en forme du long rectangle*/
+#long_rectangle{
+    height: 105px;
+    width: 97%;
+    border-radius: 8px 8px 0px 0px;
+    background-color: rgb(255, 255, 255);
+    margin: 3% auto;
+    margin-bottom: 0%;
+    padding: 1.5%;
+    position: relative;
+}
+
+.order_status_text{
+    margin-bottom: 1.5%;
+}
+
+/*Mise en forme et en couleur mini_3_carre*/
+.mini_3_carre{
+    display: flex;
+}
+
+.mini_carre1{
+    height: 40px;
+    width: 6%;
+    background-color: #898bfb;
+    border-radius: 3px;
+}
+
+.mini_carre2{
+    height: 40px;
+    width: 10%;
+    background-color: #cdd4db;
+    border-radius: 3px;
+}
+
+.mini_carre3{
+    height: 40px;
+    width: 5%;
+    background-color: #cdd4db;
+    border-radius: 3px;
+}
+
+.mc1{
+    margin-right: 0.5%;
+}
+
+form{
+    position: absolute;
+    right: 14%;
+    bottom: 12%;
+}
+
+input{
+    padding: 7% 0% 7% 6%;
+    border: none;
+    border: 1px solid rgba(148, 148, 148, 0.719);
+    border-radius: 3px;
+}
+
+/*positionnement et mise en couleur de carre_4e*/
+.carre_4e{
+    height: 40px;
+    width: 10%;
+    background-color: #cdd4db;
+    border-radius: 3px;
+    position: absolute;
+    right: 2%;
+    bottom: 12%;
+}
+
